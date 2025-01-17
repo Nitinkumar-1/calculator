@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Subtraction {
+    public static void main(String[] args) {
+        // Create a scanner object to get user input
+        Scanner scanner = new Scanner(System.in);
+
+        // Get three numbers from the user
+        System.out.print("Enter first number: ");
+        double num1 = scanner.nextDouble();
+
+        System.out.print("Enter second number: ");
+        double num2 = scanner.nextDouble();
+
+        System.out.print("Enter third number: ");
+        double num3 = scanner.nextDouble();
+
+        // Perform subtraction (num1 - num2 - num3)
+        double result = num1 - num2 - num3;
+
+        // Display the result
+        System.out.println("The result of the subtraction is: " + result);
+
+        // Close the scanner
+        scanner.close();
+    }
+}
